@@ -23,13 +23,13 @@ int main() {
 
     while (1) {
         system("cls");
-        printf("    *************************************'Åä ¸° ÀÌ'¸¦ À§ÇÑ ´Ü¾îÀå************************************* \n\n\n\n\n\n\n\n");
-        printf("          1. ´Ü¾îÀå ÆîÄ¡±â\n\n\n");
-        printf("          2. °øºÎ ½ÃÀÛ\n\n\n");
-        printf("          3. ´Ü¾îÀå °ü¸®\n\n\n");
-        printf("          4. °øºÎ Á¾·á\n\n\n");
+        printf("    *************************************'í†  ë¦° ì´'ë¥¼ ìœ„í•œ ë‹¨ì–´ì¥************************************* \n\n\n\n\n\n\n\n");
+        printf("          1. ë‹¨ì–´ì¥ í¼ì¹˜ê¸°\n\n\n");
+        printf("          2. ê³µë¶€ ì‹œì‘\n\n\n");
+        printf("          3. ë‹¨ì–´ì¥ ê´€ë¦¬\n\n\n");
+        printf("          4. ê³µë¶€ ì¢…ë£Œ\n\n\n");
         printf("\n\n\n\n\n");
-        printf("                                                   ¼±ÅÃ: ");
+        printf("                                                   ì„ íƒ: ");
         scanf("%d", &choice);
 
         switch (choice) {
@@ -40,40 +40,40 @@ int main() {
             break;
         case 2:
             system("cls");
-            printf("    *************************************'Åä ¸° ÀÌ'¸¦ À§ÇÑ ´Ü¾îÀå************************************* ");
-            printf("\n\n\n\n\n                                               *°øºÎ ½ÃÀÛ*");
+            printf("    *************************************'í†  ë¦° ì´'ë¥¼ ìœ„í•œ ë‹¨ì–´ì¥************************************* ");
+            printf("\n\n\n\n\n                                               *ê³µë¶€ ì‹œì‘*");
             study();
             break;
         case 3:
             system("cls");
-            printf("    *************************************'Åä ¸° ÀÌ'¸¦ À§ÇÑ ´Ü¾îÀå************************************* ");
-            printf("\n\n\n\n\n                                             *´Ü¾îÀå °ü¸®*");
-            printf("\n\n\n          1. Ãß°¡\n\n\n");
-            printf("          2. »èÁ¦\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
-            printf("                                                   ¼±ÅÃ: ");
+            printf("    *************************************'í†  ë¦° ì´'ë¥¼ ìœ„í•œ ë‹¨ì–´ì¥************************************* ");
+            printf("\n\n\n\n\n                                             *ë‹¨ì–´ì¥ ê´€ë¦¬*");
+            printf("\n\n\n          1. ì¶”ê°€\n\n\n");
+            printf("          2. ì‚­ì œ\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+            printf("                                                   ì„ íƒ: ");
             scanf("%d", &choice);
            
             switch (choice) {
 
             case 1:
                 system("cls");
-                printf("    *************************************'Åä ¸° ÀÌ'¸¦ À§ÇÑ ´Ü¾îÀå************************************* ");
-                printf("\n\n\n\n\n                                                *´Ü¾î Ãß°¡*");
+                printf("    *************************************'í†  ë¦° ì´'ë¥¼ ìœ„í•œ ë‹¨ì–´ì¥************************************* ");
+                printf("\n\n\n\n\n                                                *ë‹¨ì–´ ì¶”ê°€*");
                 addWord();
                 break;
             case 2:
                 system("cls");
-                printf("    *************************************'Åä ¸° ÀÌ'¸¦ À§ÇÑ ´Ü¾îÀå************************************* ");
-                printf("\n\n\n\n\n                                                *´Ü¾î »èÁ¦*");
+                printf("    *************************************'í†  ë¦° ì´'ë¥¼ ìœ„í•œ ë‹¨ì–´ì¥************************************* ");
+                printf("\n\n\n\n\n                                                *ë‹¨ì–´ ì‚­ì œ*");
                 delete();
                 break;
             }
             break;
         case 4:
-            printf("ÇÁ·Î±×·¥À» Á¾·áÇÕ´Ï´Ù.\n");
+            printf("í”„ë¡œê·¸ë¨ì„ ì¢…ë£Œí•©ë‹ˆë‹¤.\n");
             exit(0);
         default:
-            printf("Àß¸øµÈ ¼±ÅÃÀÔ´Ï´Ù. ´Ù½Ã ½ÃµµÇØÁÖ¼¼¿ä.\n");
+            printf("ì˜ëª»ëœ ì„ íƒì…ë‹ˆë‹¤. ë‹¤ì‹œ ì‹œë„í•´ì£¼ì„¸ìš”.\n");
             system("cls");
         }
     }
@@ -83,11 +83,11 @@ int main() {
 
 
 
-//1 ´Ü¾îÀå ÆîÄ¡±â
+//1 ë‹¨ì–´ì¥ í¼ì¹˜ê¸°
 void OpenBook() {
-    //´Ü¾î »ı¼º
-    printf("    *************************************'Åä ¸° ÀÌ'¸¦ À§ÇÑ ´Ü¾îÀå************************************* \n\n\n\n\n");
-    printf("                                             *´Ü¾îÀå ÆîÄ¡±â*\n");
+    //ë‹¨ì–´ ìƒì„±
+    printf("    *************************************'í†  ë¦° ì´'ë¥¼ ìœ„í•œ ë‹¨ì–´ì¥************************************* \n\n\n\n\n");
+    printf("                                             *ë‹¨ì–´ì¥ í¼ì¹˜ê¸°*\n");
     int Day = Choice_Day();
     int WordCount = readWordCount(Day);
     char*** words = (char***)malloc(MAX_WORDS * sizeof(char**));
@@ -109,11 +109,11 @@ void OpenBook() {
     if (page == 1) {
         while (end == 0) {
             system("cls");
-            printf("    *************************************'Åä ¸° ÀÌ'¸¦ À§ÇÑ ´Ü¾îÀå************************************* \n\n\n\n\n");
-            printf("                                             *´Ü¾îÀå ÆîÄ¡±â*\n\n\n\n");
+            printf("    *************************************'í†  ë¦° ì´'ë¥¼ ìœ„í•œ ë‹¨ì–´ì¥************************************* \n\n\n\n\n");
+            printf("                                             *ë‹¨ì–´ì¥ í¼ì¹˜ê¸°*\n\n\n\n");
 
             for (int i = 0; i < WordCount; i += 2) {
-                // Ã¹ ¹øÂ° ´Ü¾î/¶æ ½Ö
+                // ì²« ë²ˆì§¸ ë‹¨ì–´/ëœ» ìŒ
                 if (i < 10) {
                     int space = 15 - strlen(words[i][0]);
                     printf("                  ");
@@ -122,11 +122,11 @@ void OpenBook() {
                     printf("%s", words[i][1]);
 
                     int space2 = 15 - strlen(words[i][1]);
-                    // Ãß°¡ °ø°£
+                    // ì¶”ê°€ ê³µê°„
                     for (int i = 0; i < space2; i++) printf(" ");
                     printf("||    ");
 
-                    // µÎ ¹øÂ° ´Ü¾î/¶æ ½Ö (WordCount°¡ È¦¼öÀÏ °æ¿ì ¸¶Áö¸· ´Ü¾î/¶æ ½ÖÀ» Ã³¸®ÇÏ±â À§ÇÑ Á¶°Ç)
+                    // ë‘ ë²ˆì§¸ ë‹¨ì–´/ëœ» ìŒ (WordCountê°€ í™€ìˆ˜ì¼ ê²½ìš° ë§ˆì§€ë§‰ ë‹¨ì–´/ëœ» ìŒì„ ì²˜ë¦¬í•˜ê¸° ìœ„í•œ ì¡°ê±´)
                     if (i + 1 < WordCount) {
                         space = 15 - strlen(words[i + 1][0]);
                         if (i == 8) printf("%d. %s", i + 2, words[i + 1][0]);
@@ -152,11 +152,11 @@ void OpenBook() {
                     printf("%s", words[i][1]);
 
                     int space2 = 15 - strlen(words[i][1]);
-                    // Ãß°¡ °ø°£
+                    // ì¶”ê°€ ê³µê°„
                     for (int i = 0; i < space2; i++) printf(" ");
                     printf("||    ");
 
-                    // µÎ ¹øÂ° ´Ü¾î/¶æ ½Ö (WordCount°¡ È¦¼öÀÏ °æ¿ì ¸¶Áö¸· ´Ü¾î/¶æ ½ÖÀ» Ã³¸®ÇÏ±â À§ÇÑ Á¶°Ç)
+                    // ë‘ ë²ˆì§¸ ë‹¨ì–´/ëœ» ìŒ (WordCountê°€ í™€ìˆ˜ì¼ ê²½ìš° ë§ˆì§€ë§‰ ë‹¨ì–´/ëœ» ìŒì„ ì²˜ë¦¬í•˜ê¸° ìœ„í•œ ì¡°ê±´)
                     if (i + 1 < WordCount) {
                         space = 15 - strlen(words[i + 1][0]);
                         printf("%d. %s", i + 2, words[i + 1][0]);
@@ -185,11 +185,11 @@ void OpenBook() {
     else if (page == 2) {
         while (1) {
             system("cls");
-            printf("    *************************************'Åä ¸° ÀÌ'¸¦ À§ÇÑ ´Ü¾îÀå************************************* \n\n\n\n\n");
-            printf("                                             *´Ü¾îÀå ÆîÄ¡±â*\n\n\n");
+            printf("    *************************************'í†  ë¦° ì´'ë¥¼ ìœ„í•œ ë‹¨ì–´ì¥************************************* \n\n\n\n\n");
+            printf("                                             *ë‹¨ì–´ì¥ í¼ì¹˜ê¸°*\n\n\n");
             if (mv_page == 1) {
                 for (int i = 0; i < 20; i += 2) {
-                    // Ã¹ ¹øÂ° ´Ü¾î/¶æ ½Ö
+                    // ì²« ë²ˆì§¸ ë‹¨ì–´/ëœ» ìŒ
                     if (i < 10) {
                         int space = 15 - strlen(words[i][0]);
                         printf("                  ");
@@ -198,11 +198,11 @@ void OpenBook() {
                         printf("%s", words[i][1]);
 
                         int space2 = 15 - strlen(words[i][1]);
-                        // Ãß°¡ °ø°£
+                        // ì¶”ê°€ ê³µê°„
                         for (int i = 0; i < space2; i++) printf(" ");
                         printf("||    ");
 
-                        // µÎ ¹øÂ° ´Ü¾î/¶æ ½Ö (WordCount°¡ È¦¼öÀÏ °æ¿ì ¸¶Áö¸· ´Ü¾î/¶æ ½ÖÀ» Ã³¸®ÇÏ±â À§ÇÑ Á¶°Ç)
+                        // ë‘ ë²ˆì§¸ ë‹¨ì–´/ëœ» ìŒ (WordCountê°€ í™€ìˆ˜ì¼ ê²½ìš° ë§ˆì§€ë§‰ ë‹¨ì–´/ëœ» ìŒì„ ì²˜ë¦¬í•˜ê¸° ìœ„í•œ ì¡°ê±´)
                         if (i + 1 < WordCount) {                            
                             space = 15 - strlen(words[i + 1][0]);
                             if(i==8) printf("%d. %s", i + 2, words[i + 1][0]);
@@ -227,11 +227,11 @@ void OpenBook() {
                         printf("%s", words[i][1]);
 
                         int space2 = 15 - strlen(words[i][1]);
-                        // Ãß°¡ °ø°£
+                        // ì¶”ê°€ ê³µê°„
                         for (int i = 0; i < space2; i++) printf(" ");
                         printf("||    ");
 
-                        // µÎ ¹øÂ° ´Ü¾î/¶æ ½Ö (WordCount°¡ È¦¼öÀÏ °æ¿ì ¸¶Áö¸· ´Ü¾î/¶æ ½ÖÀ» Ã³¸®ÇÏ±â À§ÇÑ Á¶°Ç)
+                        // ë‘ ë²ˆì§¸ ë‹¨ì–´/ëœ» ìŒ (WordCountê°€ í™€ìˆ˜ì¼ ê²½ìš° ë§ˆì§€ë§‰ ë‹¨ì–´/ëœ» ìŒì„ ì²˜ë¦¬í•˜ê¸° ìœ„í•œ ì¡°ê±´)
                         if (i + 1 < WordCount) {
                             space = 15 - strlen(words[i + 1][0]);
                             printf("%d. %s", i + 2, words[i + 1][0]);
@@ -248,7 +248,7 @@ void OpenBook() {
                         printf("\n");
                     }
                 }
-                printf("1. ÀÌÀü ÆäÀÌÁö  2. ´ÙÀ½ ÆäÀÌÁö \n>>");
+                printf("1. ì´ì „ í˜ì´ì§€  2. ë‹¤ìŒ í˜ì´ì§€ \n>>");
                 scanf("%d", &mv_to_page);
                 if (mv_to_page == 2) {
                     mv_page = 2;
@@ -257,7 +257,7 @@ void OpenBook() {
 
             else if (mv_page == 2) {
                 for (int i = 21; i < WordCount; i += 2) {
-                    // Ã¹ ¹øÂ° ´Ü¾î/¶æ ½Ö
+                    // ì²« ë²ˆì§¸ ë‹¨ì–´/ëœ» ìŒ
                     if (i < 10) {
                         int space = 15 - strlen(words[i][0]);
                         printf("                  ");
@@ -266,11 +266,11 @@ void OpenBook() {
                         printf("%s", words[i][1]);
 
                         int space2 = 15 - strlen(words[i][1]);
-                        // Ãß°¡ °ø°£
+                        // ì¶”ê°€ ê³µê°„
                         for (int i = 0; i < space2; i++) printf(" ");
                         printf("||    ");
 
-                        // µÎ ¹øÂ° ´Ü¾î/¶æ ½Ö (WordCount°¡ È¦¼öÀÏ °æ¿ì ¸¶Áö¸· ´Ü¾î/¶æ ½ÖÀ» Ã³¸®ÇÏ±â À§ÇÑ Á¶°Ç)
+                        // ë‘ ë²ˆì§¸ ë‹¨ì–´/ëœ» ìŒ (WordCountê°€ í™€ìˆ˜ì¼ ê²½ìš° ë§ˆì§€ë§‰ ë‹¨ì–´/ëœ» ìŒì„ ì²˜ë¦¬í•˜ê¸° ìœ„í•œ ì¡°ê±´)
                         if (i + 1 < WordCount) {
                             space = 15 - strlen(words[i + 1][0]);
                             printf(" %d. %s", i + 2, words[i + 1][0]);
@@ -294,11 +294,11 @@ void OpenBook() {
                         printf("%s", words[i][1]);
 
                         int space2 = 15 - strlen(words[i][1]);
-                        // Ãß°¡ °ø°£
+                        // ì¶”ê°€ ê³µê°„
                         for (int i = 0; i < space2; i++) printf(" ");
                         printf("||    ");
 
-                        // µÎ ¹øÂ° ´Ü¾î/¶æ ½Ö (WordCount°¡ È¦¼öÀÏ °æ¿ì ¸¶Áö¸· ´Ü¾î/¶æ ½ÖÀ» Ã³¸®ÇÏ±â À§ÇÑ Á¶°Ç)
+                        // ë‘ ë²ˆì§¸ ë‹¨ì–´/ëœ» ìŒ (WordCountê°€ í™€ìˆ˜ì¼ ê²½ìš° ë§ˆì§€ë§‰ ë‹¨ì–´/ëœ» ìŒì„ ì²˜ë¦¬í•˜ê¸° ìœ„í•œ ì¡°ê±´)
                         if (i + 1 < WordCount) {
                             space = 15 - strlen(words[i + 1][0]);
                             printf("%d. %s", i + 2, words[i + 1][0]);
@@ -315,22 +315,22 @@ void OpenBook() {
                         printf("\n");
                     }
                 }
-                printf("1. ÀÌÀü ÆäÀÌÁö  2. ´Ü¾îÀå ÆîÄ¡±â Á¾·á \n>>");
+                printf("1. ì´ì „ í˜ì´ì§€  2. ë‹¨ì–´ì¥ í¼ì¹˜ê¸° ì¢…ë£Œ \n>>");
                 scanf("%d", &mv_to_page);
                 if (mv_to_page == 2) break;
                 else if (mv_to_page == 1) mv_page = 1;
             }//mv page 2
-        }//while¹®
-    }//page 2ÀÏ¶§
+        }//whileë¬¸
+    }//page 2ì¼ë•Œ
 
     else if (page == 3) {
         while (1) {
             system("cls");
-            printf("    *************************************'Åä ¸° ÀÌ'¸¦ À§ÇÑ ´Ü¾îÀå************************************* \n\n\n\n\n");
-            printf("                                             *´Ü¾îÀå ÆîÄ¡±â*\n\n\n");
+            printf("    *************************************'í†  ë¦° ì´'ë¥¼ ìœ„í•œ ë‹¨ì–´ì¥************************************* \n\n\n\n\n");
+            printf("                                             *ë‹¨ì–´ì¥ í¼ì¹˜ê¸°*\n\n\n");
             if (mv_page == 1) {
                 for (int i = 0; i < 20; i += 2) {
-                    // Ã¹ ¹øÂ° ´Ü¾î/¶æ ½Ö
+                    // ì²« ë²ˆì§¸ ë‹¨ì–´/ëœ» ìŒ
                     if (i < 10) {
                         int space = 15 - strlen(words[i][0]);
                         printf("                  ");
@@ -339,11 +339,11 @@ void OpenBook() {
                         printf("%s", words[i][1]);
 
                         int space2 = 15 - strlen(words[i][1]);
-                        // Ãß°¡ °ø°£
+                        // ì¶”ê°€ ê³µê°„
                         for (int i = 0; i < space2; i++) printf(" ");
                         printf("||    ");
 
-                        // µÎ ¹øÂ° ´Ü¾î/¶æ ½Ö (WordCount°¡ È¦¼öÀÏ °æ¿ì ¸¶Áö¸· ´Ü¾î/¶æ ½ÖÀ» Ã³¸®ÇÏ±â À§ÇÑ Á¶°Ç)
+                        // ë‘ ë²ˆì§¸ ë‹¨ì–´/ëœ» ìŒ (WordCountê°€ í™€ìˆ˜ì¼ ê²½ìš° ë§ˆì§€ë§‰ ë‹¨ì–´/ëœ» ìŒì„ ì²˜ë¦¬í•˜ê¸° ìœ„í•œ ì¡°ê±´)
                         if (i + 1 < WordCount) {
                             space = 15 - strlen(words[i + 1][0]);
                             if (i == 8) printf("%d. %s", i + 2, words[i + 1][0]);
@@ -368,11 +368,11 @@ void OpenBook() {
                         printf("%s", words[i][1]);
 
                         int space2 = 15 - strlen(words[i][1]);
-                        // Ãß°¡ °ø°£
+                        // ì¶”ê°€ ê³µê°„
                         for (int i = 0; i < space2; i++) printf(" ");
                         printf("||    ");
 
-                        // µÎ ¹øÂ° ´Ü¾î/¶æ ½Ö (WordCount°¡ È¦¼öÀÏ °æ¿ì ¸¶Áö¸· ´Ü¾î/¶æ ½ÖÀ» Ã³¸®ÇÏ±â À§ÇÑ Á¶°Ç)
+                        // ë‘ ë²ˆì§¸ ë‹¨ì–´/ëœ» ìŒ (WordCountê°€ í™€ìˆ˜ì¼ ê²½ìš° ë§ˆì§€ë§‰ ë‹¨ì–´/ëœ» ìŒì„ ì²˜ë¦¬í•˜ê¸° ìœ„í•œ ì¡°ê±´)
                         if (i + 1 < WordCount) {
                             space = 15 - strlen(words[i + 1][0]);
                             printf("%d. %s", i + 2, words[i + 1][0]);
@@ -389,7 +389,7 @@ void OpenBook() {
                         printf("\n");
                     }
                 }
-                printf("1. ÀÌÀü ÆäÀÌÁö  2. ´ÙÀ½ ÆäÀÌÁö \n>>");
+                printf("1. ì´ì „ í˜ì´ì§€  2. ë‹¤ìŒ í˜ì´ì§€ \n>>");
                 scanf("%d", &mv_to_page);
                 if (mv_to_page == 2) {
                     mv_page = 2;
@@ -398,7 +398,7 @@ void OpenBook() {
 
             else if (mv_page == 2) {
                 for (int i = 21; i < 40; i += 2) {
-                    // Ã¹ ¹øÂ° ´Ü¾î/¶æ ½Ö                                     
+                    // ì²« ë²ˆì§¸ ë‹¨ì–´/ëœ» ìŒ                                     
                         int space = 15 - strlen(words[i][0]);
                         printf("                  ");
                         printf("%d. %s", i + 1, words[i][0]);
@@ -406,11 +406,11 @@ void OpenBook() {
                         printf("%s", words[i][1]);
 
                         int space2 = 15 - strlen(words[i][1]);
-                        // Ãß°¡ °ø°£
+                        // ì¶”ê°€ ê³µê°„
                         for (int i = 0; i < space2; i++) printf(" ");
                         printf("||    ");
 
-                        // µÎ ¹øÂ° ´Ü¾î/¶æ ½Ö (WordCount°¡ È¦¼öÀÏ °æ¿ì ¸¶Áö¸· ´Ü¾î/¶æ ½ÖÀ» Ã³¸®ÇÏ±â À§ÇÑ Á¶°Ç)
+                        // ë‘ ë²ˆì§¸ ë‹¨ì–´/ëœ» ìŒ (WordCountê°€ í™€ìˆ˜ì¼ ê²½ìš° ë§ˆì§€ë§‰ ë‹¨ì–´/ëœ» ìŒì„ ì²˜ë¦¬í•˜ê¸° ìœ„í•œ ì¡°ê±´)
                         if (i + 1 < WordCount) {
                             space = 15 - strlen(words[i + 1][0]);
                             printf("%d. %s", i + 2, words[i + 1][0]);
@@ -427,7 +427,7 @@ void OpenBook() {
                         printf("\n");
                     
                 }
-                printf("1. ÀÌÀü ÆäÀÌÁö  2. ´ÙÀ½ ÆäÀÌÁö \n>>");
+                printf("1. ì´ì „ í˜ì´ì§€  2. ë‹¤ìŒ í˜ì´ì§€ \n>>");
                 scanf("%d", &mv_to_page);
                 if (mv_to_page == 2) mv_page = 3;
                 else if (mv_to_page == 1) mv_page = 1;
@@ -435,7 +435,7 @@ void OpenBook() {
 
             else if (mv_page == 3) {
                 for (int i = 41; i < WordCount; i += 2) {
-                    // Ã¹ ¹øÂ° ´Ü¾î/¶æ ½Ö
+                    // ì²« ë²ˆì§¸ ë‹¨ì–´/ëœ» ìŒ
                         int space = 15 - strlen(words[i][0]);
                         printf("                  ");
                         printf("%d. %s", i + 1, words[i][0]);
@@ -443,11 +443,11 @@ void OpenBook() {
                         printf("%s", words[i][1]);
 
                         int space2 = 15 - strlen(words[i][1]);
-                        // Ãß°¡ °ø°£
+                        // ì¶”ê°€ ê³µê°„
                         for (int i = 0; i < space2; i++) printf(" ");
                         printf("||    ");
 
-                        // µÎ ¹øÂ° ´Ü¾î/¶æ ½Ö (WordCount°¡ È¦¼öÀÏ °æ¿ì ¸¶Áö¸· ´Ü¾î/¶æ ½ÖÀ» Ã³¸®ÇÏ±â À§ÇÑ Á¶°Ç)
+                        // ë‘ ë²ˆì§¸ ë‹¨ì–´/ëœ» ìŒ (WordCountê°€ í™€ìˆ˜ì¼ ê²½ìš° ë§ˆì§€ë§‰ ë‹¨ì–´/ëœ» ìŒì„ ì²˜ë¦¬í•˜ê¸° ìœ„í•œ ì¡°ê±´)
                         if (i + 1 < WordCount) {
                             space = 15 - strlen(words[i + 1][0]);
                             printf("%d. %s", i + 2, words[i + 1][0]);
@@ -463,15 +463,15 @@ void OpenBook() {
                         }
                         printf("\n");                    
                 }
-                printf("1. ÀÌÀü ÆäÀÌÁö  2. ´Ü¾îÀå ÆîÄ¡±â Á¾·á \n>>");
+                printf("1. ì´ì „ í˜ì´ì§€  2. ë‹¨ì–´ì¥ í¼ì¹˜ê¸° ì¢…ë£Œ \n>>");
                 scanf("%d", &mv_to_page);
                 if (mv_to_page == 2) break;
                 else if (mv_to_page == 1) mv_page = 2;
                 }//mv page 3
-        }//while¹®
-    }//page 3ÀÏ¶§
+        }//whileë¬¸
+    }//page 3ì¼ë•Œ
 
-    // µ¿Àû ÇÒ´ç ÇØÁ¦
+    // ë™ì  í• ë‹¹ í•´ì œ
     for (int i = 0; i < WordCount; i++) {
         for (int j = 0; j < 2; j++) {
             free(words[i][j]);
@@ -482,16 +482,16 @@ void OpenBook() {
     free(error);
     while (1) {
         printf("\n\n\n\n");
-        printf("¿£ÅÍ Å° ÀÔ·Â.\n");
-        int input = getchar(); // »ç¿ëÀÚ·ÎºÎÅÍ ÇÑ ¹®ÀÚ ÀÔ·Â ¹Ş±â
-        if (input == '\n') { // ÀÔ·Â¹ŞÀº ¹®ÀÚ°¡ '\n'ÀÌ¸é, Áï ¿£ÅÍ Å°ÀÌ¸é
+        printf("ì—”í„° í‚¤ ì…ë ¥.\n");
+        int input = getchar(); // ì‚¬ìš©ìë¡œë¶€í„° í•œ ë¬¸ì ì…ë ¥ ë°›ê¸°
+        if (input == '\n') { // ì…ë ¥ë°›ì€ ë¬¸ìê°€ '\n'ì´ë©´, ì¦‰ ì—”í„° í‚¤ì´ë©´
 
-            break; // while ·çÇÁ¸¦ ºüÁ®³ª¿Í ´ÙÀ½ ´Ü°è·Î ÁøÇà
+            break; // while ë£¨í”„ë¥¼ ë¹ ì ¸ë‚˜ì™€ ë‹¤ìŒ ë‹¨ê³„ë¡œ ì§„í–‰
         }
     }
-}//´Ü¾îÀå ¿­±â
+}//ë‹¨ì–´ì¥ ì—´ê¸°
 
-//2.°øºÎ½ÃÀÛ
+//2.ê³µë¶€ì‹œì‘
 void study() {
     int Day = Choice_Day();
     int WordCount = readWordCount(Day);
@@ -508,11 +508,11 @@ void study() {
     Load_Words(words, Day, error);
     int choice=0;
     system("cls");
-    printf("    *************************************'Åä ¸° ÀÌ'¸¦ À§ÇÑ ´Ü¾îÀå************************************* ");
+    printf("    *************************************'í†  ë¦° ì´'ë¥¼ ìœ„í•œ ë‹¨ì–´ì¥************************************* ");
     printf("\n\n\n\n\n\n\n\n\n");
-    printf("                               1. Á¤µ¶ Quiz     2. ¾àÁ¡ º¸¿Ï     3. ´«À¸·Î ¸ÂÃß´Â ÄûÁî \n");
+    printf("                               1. ì •ë… Quiz     2. ì•½ì  ë³´ì™„     3. ëˆˆìœ¼ë¡œ ë§ì¶”ëŠ” í€´ì¦ˆ \n");
     printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
-    printf("                                                   ¼±ÅÃ: ");
+    printf("                                                   ì„ íƒ: ");
     scanf("%d", &choice);
     getchar();
 
@@ -530,31 +530,31 @@ void study() {
         break;
     }
 
-    char filename[20]; // ÆÄÀÏ ÀÌ¸§À» ÀúÀåÇÒ ¹è¿­ÀÇ Å©±â¸¦ ´Ã·È½À´Ï´Ù.
-    sprintf(filename, "Day%d.txt", Day); // ÆÄÀÏ ÀÌ¸§ »ı¼º
+    char filename[20]; // íŒŒì¼ ì´ë¦„ì„ ì €ì¥í•  ë°°ì—´ì˜ í¬ê¸°ë¥¼ ëŠ˜ë ¸ìŠµë‹ˆë‹¤.
+    sprintf(filename, "Day%d.txt", Day); // íŒŒì¼ ì´ë¦„ ìƒì„±
 
     char tempFilename[25];
-    sprintf(tempFilename, "%s_temp", filename); // ÀÓ½Ã ÆÄÀÏ ÀÌ¸§ »ı¼º
+    sprintf(tempFilename, "%s_temp", filename); // ì„ì‹œ íŒŒì¼ ì´ë¦„ ìƒì„±
     FILE* tempFile = fopen(tempFilename, "w");
     if (tempFile == NULL) {
-        printf("ÀÓ½Ã ÆÄÀÏÀ» »ı¼ºÇÒ ¼ö ¾ø½À´Ï´Ù.\n");
+        printf("ì„ì‹œ íŒŒì¼ì„ ìƒì„±í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.\n");
         return;
     }
 
-    // ÀÛ¼º
+    // ì‘ì„±
     for (int i = 0; i < WordCount; i++) {
             fprintf(tempFile, "%s-%s-%d\n", words[i][0], words[i][1], error[i]);   
     }
 
-    // ÆÄÀÏ ¹× ¸Ş¸ğ¸® ÀÚ¿ø Á¤¸®
+    // íŒŒì¼ ë° ë©”ëª¨ë¦¬ ìì› ì •ë¦¬
     fclose(tempFile);
 
 
-    // ¿øº» ÆÄÀÏ »èÁ¦ ¹× ÀÓ½Ã ÆÄÀÏ ÀÌ¸§ º¯°æ
+    // ì›ë³¸ íŒŒì¼ ì‚­ì œ ë° ì„ì‹œ íŒŒì¼ ì´ë¦„ ë³€ê²½
     remove(filename);
     rename(tempFilename, filename);
 
-    //¸Ş¸ğ¸® ÇØÁ¦
+    //ë©”ëª¨ë¦¬ í•´ì œ
     for (int i = 0; i < WordCount; i++) {
             for (int j = 0; j < 2; j++) {
                 free(words[i][j]);
@@ -563,64 +563,64 @@ void study() {
         }
         free(words);
         free(error);
-}//°øºÎ ½ÃÀÛ
+}//ê³µë¶€ ì‹œì‘
 
-//(1)ÄûÁî - fgets »ç¿ë
+//(1)í€´ì¦ˆ - fgets ì‚¬ìš©
 void quiz(char*** words, int* error, int Day, int WordCount) {
     int wrongCount = 0;
     
     for (int j = 0; j < WordCount; j++) {
         system("cls");
-        printf("    *************************************'Åä ¸° ÀÌ'¸¦ À§ÇÑ ´Ü¾îÀå************************************* ");
+        printf("    *************************************'í†  ë¦° ì´'ë¥¼ ìœ„í•œ ë‹¨ì–´ì¥************************************* ");
         printf("\n\n\n\n\n");
-        printf("                                              *Á¤µ¶ ÄûÁî*\n\n\n\n");
-        printf("                                         %d. '%s'ÀÇ ÀÇ¹Ì´Â? ",j+1, words[j][0]);
+        printf("                                              *ì •ë… í€´ì¦ˆ*\n\n\n\n");
+        printf("                                         %d. '%s'ì˜ ì˜ë¯¸ëŠ”? ",j+1, words[j][0]);
         printf("\n\n\n\n\n\n\n\n\n\n\n");
         printf("                                                >>");
         char userAnswer[MAX_KOR_LENGTH + 1]; // +1 for null terminator
         fgets(userAnswer, MAX_KOR_LENGTH + 1, stdin);
 
-        // fgets´Â ´º¶óÀÎ ¹®ÀÚµµ ÀúÀåÇÏ¹Ç·Î, ÀÔ·ÂµÈ ¹®ÀÚ¿­¿¡¼­ ´º¶óÀÎ ¹®ÀÚ¸¦ Á¦°ÅÇÕ´Ï´Ù.
+        // fgetsëŠ” ë‰´ë¼ì¸ ë¬¸ìë„ ì €ì¥í•˜ë¯€ë¡œ, ì…ë ¥ëœ ë¬¸ìì—´ì—ì„œ ë‰´ë¼ì¸ ë¬¸ìë¥¼ ì œê±°í•©ë‹ˆë‹¤.
         userAnswer[strcspn(userAnswer, "\n")] = 0;
 
         if (strcmp(userAnswer, words[j][1]) != 0) {
             printf("\n                                   ");
-            printf("Æ²·È½À´Ï´Ù! %sÀÇ ¶æÀº %sÀÔ´Ï´Ù.\n", words[j][0],words[j][1]);
+            printf("í‹€ë ¸ìŠµë‹ˆë‹¤! %sì˜ ëœ»ì€ %sì…ë‹ˆë‹¤.\n", words[j][0],words[j][1]);
             wrongCount++;
             error[j]++;
         }
         else {
             printf("\n                                               ");
-            printf("Á¤´äÀÔ´Ï´Ù!\n");
+            printf("ì •ë‹µì…ë‹ˆë‹¤!\n");
         }
         while (1) {
             printf("\n\n\n\n");
-            printf("¿£ÅÍ Å° ÀÔ·Â.\n");
-            int input = getchar(); // »ç¿ëÀÚ·ÎºÎÅÍ ÇÑ ¹®ÀÚ ÀÔ·Â ¹Ş±â
-            if (input == '\n') { // ÀÔ·Â¹ŞÀº ¹®ÀÚ°¡ '\n'ÀÌ¸é, Áï ¿£ÅÍ Å°ÀÌ¸é
+            printf("ì—”í„° í‚¤ ì…ë ¥.\n");
+            int input = getchar(); // ì‚¬ìš©ìë¡œë¶€í„° í•œ ë¬¸ì ì…ë ¥ ë°›ê¸°
+            if (input == '\n') { // ì…ë ¥ë°›ì€ ë¬¸ìê°€ '\n'ì´ë©´, ì¦‰ ì—”í„° í‚¤ì´ë©´
                 
-                break; // while ·çÇÁ¸¦ ºüÁ®³ª¿Í ´ÙÀ½ ´Ü°è·Î ÁøÇà
+                break; // while ë£¨í”„ë¥¼ ë¹ ì ¸ë‚˜ì™€ ë‹¤ìŒ ë‹¨ê³„ë¡œ ì§„í–‰
             }
         }
     }
     system("cls");
-    printf("    *************************************'Åä ¸° ÀÌ'¸¦ À§ÇÑ ´Ü¾îÀå************************************* ");
+    printf("    *************************************'í†  ë¦° ì´'ë¥¼ ìœ„í•œ ë‹¨ì–´ì¥************************************* ");
     printf("\n\n\n\n\n");
     printf("                                     ");
-    printf("ÄûÁî°¡ ³¡³µ½À´Ï´Ù. <Day %d> ÃÑ Æ²¸° °³¼ö: %d\n", Day, wrongCount);
+    printf("í€´ì¦ˆê°€ ëë‚¬ìŠµë‹ˆë‹¤. <Day %d> ì´ í‹€ë¦° ê°œìˆ˜: %d\n", Day, wrongCount);
     while (1) {
         printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
-        printf("¿£ÅÍ Å° ÀÔ·Â.\n");
-        int input = getchar(); // »ç¿ëÀÚ·ÎºÎÅÍ ÇÑ ¹®ÀÚ ÀÔ·Â ¹Ş±â
-        if (input == '\n') { // ÀÔ·Â¹ŞÀº ¹®ÀÚ°¡ '\n'ÀÌ¸é, Áï ¿£ÅÍ Å°ÀÌ¸é
+        printf("ì—”í„° í‚¤ ì…ë ¥.\n");
+        int input = getchar(); // ì‚¬ìš©ìë¡œë¶€í„° í•œ ë¬¸ì ì…ë ¥ ë°›ê¸°
+        if (input == '\n') { // ì…ë ¥ë°›ì€ ë¬¸ìê°€ '\n'ì´ë©´, ì¦‰ ì—”í„° í‚¤ì´ë©´
 
-            break; // while ·çÇÁ¸¦ ºüÁ®³ª¿Í ´ÙÀ½ ´Ü°è·Î ÁøÇà
+            break; // while ë£¨í”„ë¥¼ ë¹ ì ¸ë‚˜ì™€ ë‹¤ìŒ ë‹¨ê³„ë¡œ ì§„í–‰
         }
     }
 }
 
 
-//(2)¾àÁ¡ º¸¿Ï - error ÇÔ¼ö ÀÌ¿ë
+//(2)ì•½ì  ë³´ì™„ - error í•¨ìˆ˜ ì´ìš©
 void quiz_error(char*** words, int* error, int Day, int WordCount) {
     int wrongCount = 0;
     int* error_sort = (int*)malloc(WordCount * sizeof(int));
@@ -647,58 +647,58 @@ void quiz_error(char*** words, int* error, int Day, int WordCount) {
     }
     for (int j = 0; j < WordCount; j++) {
         system("cls");
-        printf("    *************************************'Åä ¸° ÀÌ'¸¦ À§ÇÑ ´Ü¾îÀå************************************* ");
+        printf("    *************************************'í†  ë¦° ì´'ë¥¼ ìœ„í•œ ë‹¨ì–´ì¥************************************* ");
         printf("\n\n\n\n\n");
-        printf("                                           *¾àÁ¡ º¸¿Ï ÄûÁî*\n\n\n\n");
-        printf("                                           %d. '%s'ÀÇ ÀÇ¹Ì´Â? ", j+1,words[error_sort[j]][0]);
+        printf("                                           *ì•½ì  ë³´ì™„ í€´ì¦ˆ*\n\n\n\n");
+        printf("                                           %d. '%s'ì˜ ì˜ë¯¸ëŠ”? ", j+1,words[error_sort[j]][0]);
         printf("\n\n\n\n\n\n\n\n\n\n\n");
         printf("                                                >>");
         char userAnswer[MAX_KOR_LENGTH + 1]; // +1 for null terminator
         fgets(userAnswer, MAX_KOR_LENGTH + 1, stdin);
 
-        // fgets´Â ´º¶óÀÎ ¹®ÀÚµµ ÀúÀåÇÏ¹Ç·Î, ÀÔ·ÂµÈ ¹®ÀÚ¿­¿¡¼­ ´º¶óÀÎ ¹®ÀÚ¸¦ Á¦°ÅÇÕ´Ï´Ù.
+        // fgetsëŠ” ë‰´ë¼ì¸ ë¬¸ìë„ ì €ì¥í•˜ë¯€ë¡œ, ì…ë ¥ëœ ë¬¸ìì—´ì—ì„œ ë‰´ë¼ì¸ ë¬¸ìë¥¼ ì œê±°í•©ë‹ˆë‹¤.
         userAnswer[strcspn(userAnswer, "\n")] = 0;
 
         if (strcmp(userAnswer, words[error_sort[j]][1]) != 0) {
-            printf("\n\n                                                   ¿À´äÀÔ´Ï´Ù. %sÀÇ ÀÇ¹Ì´Â %s ÀÔ´Ï´Ù.\n ", words[error_sort[j]][0],words[error_sort[j]][1]);
+            printf("\n\n                                                   ì˜¤ë‹µì…ë‹ˆë‹¤. %sì˜ ì˜ë¯¸ëŠ” %s ì…ë‹ˆë‹¤.\n ", words[error_sort[j]][0],words[error_sort[j]][1]);
             wrongCount++;
             error[error_sort[j]]++;
             while (1) {
                 printf("\n\n");
-                printf("¿£ÅÍ Å° ÀÔ·Â.\n");
-                int input = getchar(); // »ç¿ëÀÚ·ÎºÎÅÍ ÇÑ ¹®ÀÚ ÀÔ·Â ¹Ş±â
-                if (input == '\n') { // ÀÔ·Â¹ŞÀº ¹®ÀÚ°¡ '\n'ÀÌ¸é, Áï ¿£ÅÍ Å°ÀÌ¸é
+                printf("ì—”í„° í‚¤ ì…ë ¥.\n");
+                int input = getchar(); // ì‚¬ìš©ìë¡œë¶€í„° í•œ ë¬¸ì ì…ë ¥ ë°›ê¸°
+                if (input == '\n') { // ì…ë ¥ë°›ì€ ë¬¸ìê°€ '\n'ì´ë©´, ì¦‰ ì—”í„° í‚¤ì´ë©´
 
-                    break; // while ·çÇÁ¸¦ ºüÁ®³ª¿Í ´ÙÀ½ ´Ü°è·Î ÁøÇà
+                    break; // while ë£¨í”„ë¥¼ ë¹ ì ¸ë‚˜ì™€ ë‹¤ìŒ ë‹¨ê³„ë¡œ ì§„í–‰
                 }
             }
         }
         else {
-            printf("\n\n                                               Á¤´äÀÔ´Ï´Ù!\n");
+            printf("\n\n                                               ì •ë‹µì…ë‹ˆë‹¤!\n");
             while (1) {
                 printf("\n\n");
-                printf("¿£ÅÍ Å° ÀÔ·Â.\n");
-                int input = getchar(); // »ç¿ëÀÚ·ÎºÎÅÍ ÇÑ ¹®ÀÚ ÀÔ·Â ¹Ş±â
-                if (input == '\n') { // ÀÔ·Â¹ŞÀº ¹®ÀÚ°¡ '\n'ÀÌ¸é, Áï ¿£ÅÍ Å°ÀÌ¸é
+                printf("ì—”í„° í‚¤ ì…ë ¥.\n");
+                int input = getchar(); // ì‚¬ìš©ìë¡œë¶€í„° í•œ ë¬¸ì ì…ë ¥ ë°›ê¸°
+                if (input == '\n') { // ì…ë ¥ë°›ì€ ë¬¸ìê°€ '\n'ì´ë©´, ì¦‰ ì—”í„° í‚¤ì´ë©´
 
-                    break; // while ·çÇÁ¸¦ ºüÁ®³ª¿Í ´ÙÀ½ ´Ü°è·Î ÁøÇà
+                    break; // while ë£¨í”„ë¥¼ ë¹ ì ¸ë‚˜ì™€ ë‹¤ìŒ ë‹¨ê³„ë¡œ ì§„í–‰
                 }
             }
         }
     }
     
     system("cls");
-    printf("    *************************************'Åä ¸° ÀÌ'¸¦ À§ÇÑ ´Ü¾îÀå************************************* ");
+    printf("    *************************************'í†  ë¦° ì´'ë¥¼ ìœ„í•œ ë‹¨ì–´ì¥************************************* ");
     printf("\n\n\n\n\n");
     printf("                                     ");
-    printf("ÄûÁî°¡ ³¡³µ½À´Ï´Ù. <Day %d> ÃÑ Æ²¸° °³¼ö: %d\n", Day, wrongCount);
+    printf("í€´ì¦ˆê°€ ëë‚¬ìŠµë‹ˆë‹¤. <Day %d> ì´ í‹€ë¦° ê°œìˆ˜: %d\n", Day, wrongCount);
     while (1) {
         printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
-        printf("¿£ÅÍ Å° ÀÔ·Â.\n");
-        int input = getchar(); // »ç¿ëÀÚ·ÎºÎÅÍ ÇÑ ¹®ÀÚ ÀÔ·Â ¹Ş±â
-        if (input == '\n') { // ÀÔ·Â¹ŞÀº ¹®ÀÚ°¡ '\n'ÀÌ¸é, Áï ¿£ÅÍ Å°ÀÌ¸é
+        printf("ì—”í„° í‚¤ ì…ë ¥.\n");
+        int input = getchar(); // ì‚¬ìš©ìë¡œë¶€í„° í•œ ë¬¸ì ì…ë ¥ ë°›ê¸°
+        if (input == '\n') { // ì…ë ¥ë°›ì€ ë¬¸ìê°€ '\n'ì´ë©´, ì¦‰ ì—”í„° í‚¤ì´ë©´
 
-            break; // while ·çÇÁ¸¦ ºüÁ®³ª¿Í ´ÙÀ½ ´Ü°è·Î ÁøÇà
+            break; // while ë£¨í”„ë¥¼ ë¹ ì ¸ë‚˜ì™€ ë‹¤ìŒ ë‹¨ê³„ë¡œ ì§„í–‰
         }
     }
 
@@ -712,27 +712,27 @@ void quiz_error(char*** words, int* error, int Day, int WordCount) {
 
 
 
-//(3)´«À¸·Î °øºÎÇÏ±â
+//(3)ëˆˆìœ¼ë¡œ ê³µë¶€í•˜ê¸°
 void quiz_know(char*** words, int* error, int Day, int WordCount) {
     int wrongCount = 0;
     int choice1 = 0;
     int choice2 = 0;
     for (int j = 0; j < WordCount; j++) {
         system("cls");
-        printf("    *************************************'Åä ¸° ÀÌ'¸¦ À§ÇÑ ´Ü¾îÀå************************************* ");
+        printf("    *************************************'í†  ë¦° ì´'ë¥¼ ìœ„í•œ ë‹¨ì–´ì¥************************************* ");
         printf("\n\n\n\n\n");
-        printf("                                           *´«À¸·Î °øºÎÇÏ±â*\n\n\n\n");
-        printf("                                          %d. '%s'ÀÇ ÀÇ¹Ì´Â? ", j + 1, words[j][0]);
+        printf("                                           *ëˆˆìœ¼ë¡œ ê³µë¶€í•˜ê¸°*\n\n\n\n");
+        printf("                                          %d. '%s'ì˜ ì˜ë¯¸ëŠ”? ", j + 1, words[j][0]);
         printf("\n\n\n\n\n\n\n");
-        printf("                                         1. ¾Ë°íÀÖ´Ù  2. ¸ğ¸£°Ú´Ù");
+        printf("                                         1. ì•Œê³ ìˆë‹¤  2. ëª¨ë¥´ê² ë‹¤");
         printf("\n\n\n\n\n\n\n");
             printf("                                                >>");
         scanf("%d", &choice1);
         getchar();
         switch (choice1) {
         case 1:
-            printf("%sÀÇ ÀÇ¹Ì´Â %s ÀÔ´Ï´Ù.\n\n", words[j][0], words[j][1]);
-            printf("1. ¸ÂÃè´Ù  2. Æ²·È´Ù\n>>");
+            printf("%sì˜ ì˜ë¯¸ëŠ” %s ì…ë‹ˆë‹¤.\n\n", words[j][0], words[j][1]);
+            printf("1. ë§ì·„ë‹¤  2. í‹€ë ¸ë‹¤\n>>");
             scanf("%d", &choice2);
             getchar();
             if (choice2 == 2) {
@@ -741,14 +741,14 @@ void quiz_know(char*** words, int* error, int Day, int WordCount) {
             break;
 
         case 2:
-            printf("%sÀÇ ÀÇ¹Ì´Â %s ÀÔ´Ï´Ù.", words[j][0], words[j][1]);
+            printf("%sì˜ ì˜ë¯¸ëŠ” %s ì…ë‹ˆë‹¤.", words[j][0], words[j][1]);
             error[j]++;
             while (1) {
-                printf("\n\n¿£ÅÍ Å° ÀÔ·Â.");
-                int input = getchar(); // »ç¿ëÀÚ·ÎºÎÅÍ ÇÑ ¹®ÀÚ ÀÔ·Â ¹Ş±â
-                if (input == '\n') { // ÀÔ·Â¹ŞÀº ¹®ÀÚ°¡ '\n'ÀÌ¸é, Áï ¿£ÅÍ Å°ÀÌ¸é
+                printf("\n\nì—”í„° í‚¤ ì…ë ¥.");
+                int input = getchar(); // ì‚¬ìš©ìë¡œë¶€í„° í•œ ë¬¸ì ì…ë ¥ ë°›ê¸°
+                if (input == '\n') { // ì…ë ¥ë°›ì€ ë¬¸ìê°€ '\n'ì´ë©´, ì¦‰ ì—”í„° í‚¤ì´ë©´
 
-                    break; // while ·çÇÁ¸¦ ºüÁ®³ª¿Í ´ÙÀ½ ´Ü°è·Î ÁøÇà
+                    break; // while ë£¨í”„ë¥¼ ë¹ ì ¸ë‚˜ì™€ ë‹¤ìŒ ë‹¨ê³„ë¡œ ì§„í–‰
                 }
             }
             break;
@@ -759,32 +759,32 @@ void quiz_know(char*** words, int* error, int Day, int WordCount) {
 
 
 
-//3.´Ü¾îÀå °ü¸®
-//( 1 ) Ãß°¡
+//3.ë‹¨ì–´ì¥ ê´€ë¦¬
+//( 1 ) ì¶”ê°€
 void addWord() {
     int Day = Choice_Day();
     int wordCount = readWordCount(Day);
     if (wordCount >= MAX_WORDS) {
-        printf("´Ü¾î °¹¼ö°¡ ÃÊ°úµÇ¾ú½À´Ï´Ù ! \n ");
+        printf("ë‹¨ì–´ ê°¯ìˆ˜ê°€ ì´ˆê³¼ë˜ì—ˆìŠµë‹ˆë‹¤ ! \n ");
         return;
     }
     system("cls");
-    printf("    *************************************'Åä ¸° ÀÌ'¸¦ À§ÇÑ ´Ü¾îÀå************************************* ");
-    printf("\n\n\n\n\n                                                *´Ü¾î Ãß°¡*");
-    printf("\n\n                                           Ãß°¡ÇÒ ´Ü¾îÀå : Day %d\n", Day);
+    printf("    *************************************'í†  ë¦° ì´'ë¥¼ ìœ„í•œ ë‹¨ì–´ì¥************************************* ");
+    printf("\n\n\n\n\n                                                *ë‹¨ì–´ ì¶”ê°€*");
+    printf("\n\n                                           ì¶”ê°€í•  ë‹¨ì–´ì¥ : Day %d\n", Day);
     char ENG[MAX_ENG_LENGTH];
     char KOR[MAX_KOR_LENGTH];
-    printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                                   ´Ü¾î: ");
+    printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                                   ë‹¨ì–´: ");
     scanf("%s", ENG);
-    printf("                                                   ÀÇ¹Ì: ");
-    scanf(" %[^\n]", KOR); // °ø¹é Æ÷ÇÔ ÀÔ·Â Ã³¸®
+    printf("                                                   ì˜ë¯¸: ");
+    scanf(" %[^\n]", KOR); // ê³µë°± í¬í•¨ ì…ë ¥ ì²˜ë¦¬
     getchar();
-    char filename[12]; // ÆÄÀÏ ÀÌ¸§À» ÀúÀåÇÒ ¹è¿­
-    sprintf(filename, "Day%d.txt", Day); // ÆÄÀÏ ÀÌ¸§ »ı¼º
+    char filename[12]; // íŒŒì¼ ì´ë¦„ì„ ì €ì¥í•  ë°°ì—´
+    sprintf(filename, "Day%d.txt", Day); // íŒŒì¼ ì´ë¦„ ìƒì„±
 
     FILE* file = fopen(filename, "a");
     if (file == NULL) {
-        printf("ÆÄÀÏÀ» ¿­ ¼ö ¾ø½À´Ï´Ù.\n");
+        printf("íŒŒì¼ì„ ì—´ ìˆ˜ ì—†ìŠµë‹ˆë‹¤.\n");
         return;
     }
 
@@ -792,20 +792,20 @@ void addWord() {
     fclose(file);
 
     system("cls");
-    printf("    *************************************'Åä ¸° ÀÌ'¸¦ À§ÇÑ ´Ü¾îÀå************************************* ");
-    printf("\n\n\n\n\n                                                *´Ü¾î Ãß°¡*");
-    printf("\n\n                                           Ãß°¡ÇÒ ´Ü¾îÀå : Day %d\n", Day);
-    printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                      \"%s\"°¡ ´Ü¾îÀå¿¡ Ãß°¡µÇ¾ú½À´Ï´Ù.\n", ENG);
+    printf("    *************************************'í†  ë¦° ì´'ë¥¼ ìœ„í•œ ë‹¨ì–´ì¥************************************* ");
+    printf("\n\n\n\n\n                                                *ë‹¨ì–´ ì¶”ê°€*");
+    printf("\n\n                                           ì¶”ê°€í•  ë‹¨ì–´ì¥ : Day %d\n", Day);
+    printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                      \"%s\"ê°€ ë‹¨ì–´ì¥ì— ì¶”ê°€ë˜ì—ˆìŠµë‹ˆë‹¤.\n", ENG);
     while (1) {
-        printf("\n\n\n¿£ÅÍ Å° ÀÔ·Â.\n");
-        int input = getchar(); // »ç¿ëÀÚ·ÎºÎÅÍ ÇÑ ¹®ÀÚ ÀÔ·Â ¹Ş±â
-        if (input == '\n') { // ÀÔ·Â¹ŞÀº ¹®ÀÚ°¡ '\n'ÀÌ¸é, Áï ¿£ÅÍ Å°ÀÌ¸é
+        printf("\n\n\nì—”í„° í‚¤ ì…ë ¥.\n");
+        int input = getchar(); // ì‚¬ìš©ìë¡œë¶€í„° í•œ ë¬¸ì ì…ë ¥ ë°›ê¸°
+        if (input == '\n') { // ì…ë ¥ë°›ì€ ë¬¸ìê°€ '\n'ì´ë©´, ì¦‰ ì—”í„° í‚¤ì´ë©´
 
-            break; // while ·çÇÁ¸¦ ºüÁ®³ª¿Í ´ÙÀ½ ´Ü°è·Î ÁøÇà
+            break; // while ë£¨í”„ë¥¼ ë¹ ì ¸ë‚˜ì™€ ë‹¤ìŒ ë‹¨ê³„ë¡œ ì§„í–‰
         }
     }
 }
-//( 2 ) »èÁ¦
+//( 2 ) ì‚­ì œ
 void delete() {
     int Day = Choice_Day();
     int WordCount = readWordCount(Day);
@@ -819,13 +819,13 @@ void delete() {
         }
     }
     system("cls");
-    printf("    *************************************'Åä ¸° ÀÌ'¸¦ À§ÇÑ ´Ü¾îÀå************************************* ");
-    printf("\n\n\n\n\n                                                *´Ü¾î »èÁ¦*");
-    printf("\n\n                                          »èÁ¦ÇÒ ´Ü¾îÀå : Day %d\n", Day);
+    printf("    *************************************'í†  ë¦° ì´'ë¥¼ ìœ„í•œ ë‹¨ì–´ì¥************************************* ");
+    printf("\n\n\n\n\n                                                *ë‹¨ì–´ ì‚­ì œ*");
+    printf("\n\n                                          ì‚­ì œí•  ë‹¨ì–´ì¥ : Day %d\n", Day);
     int deletenum=0;
     char deleteWord[MAX_ENG_LENGTH];
     Load_Words(words, Day, error);
-    printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                                   ´Ü¾î: ");
+    printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                                   ë‹¨ì–´: ");
     scanf("%s", deleteWord);
     getchar();
     int no_word = 1;
@@ -833,33 +833,33 @@ void delete() {
         if (strcmp(words[i][0], deleteWord) == 0){
             deletenum = i;
             no_word = 0;
-            char filename[20]; // ÆÄÀÏ ÀÌ¸§À» ÀúÀåÇÒ ¹è¿­ÀÇ Å©±â¸¦ ´Ã·È½À´Ï´Ù.
-            sprintf(filename, "Day%d.txt", Day); // ÆÄÀÏ ÀÌ¸§ »ı¼º
+            char filename[20]; // íŒŒì¼ ì´ë¦„ì„ ì €ì¥í•  ë°°ì—´ì˜ í¬ê¸°ë¥¼ ëŠ˜ë ¸ìŠµë‹ˆë‹¤.
+            sprintf(filename, "Day%d.txt", Day); // íŒŒì¼ ì´ë¦„ ìƒì„±
 
             char tempFilename[25];
-            sprintf(tempFilename, "%s_temp", filename); // ÀÓ½Ã ÆÄÀÏ ÀÌ¸§ »ı¼º
+            sprintf(tempFilename, "%s_temp", filename); // ì„ì‹œ íŒŒì¼ ì´ë¦„ ìƒì„±
             FILE* tempFile = fopen(tempFilename, "w");
             if (tempFile == NULL) {
-                printf("ÀÓ½Ã ÆÄÀÏÀ» »ı¼ºÇÒ ¼ö ¾ø½À´Ï´Ù.\n");
+                printf("ì„ì‹œ íŒŒì¼ì„ ìƒì„±í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.\n");
                 return;
             }
 
-            // »èÁ¦ÇÒ ´Ü¾î¸¦ Á¦¿ÜÇÑ ³ª¸ÓÁö ´Ü¾î¸¦ ÀÓ½Ã ÆÄÀÏ¿¡ ¾²±â
+            // ì‚­ì œí•  ë‹¨ì–´ë¥¼ ì œì™¸í•œ ë‚˜ë¨¸ì§€ ë‹¨ì–´ë¥¼ ì„ì‹œ íŒŒì¼ì— ì“°ê¸°
             for (int i = 0; i < WordCount; i++) {
                 if (i != deletenum) {
                     fprintf(tempFile, "%s-%s-%d\n", words[i][0], words[i][1], error[i]);
                 }
             }
 
-            // ÆÄÀÏ ¹× ¸Ş¸ğ¸® ÀÚ¿ø Á¤¸®
+            // íŒŒì¼ ë° ë©”ëª¨ë¦¬ ìì› ì •ë¦¬
             fclose(tempFile);
             
 
-            // ¿øº» ÆÄÀÏ »èÁ¦ ¹× ÀÓ½Ã ÆÄÀÏ ÀÌ¸§ º¯°æ
+            // ì›ë³¸ íŒŒì¼ ì‚­ì œ ë° ì„ì‹œ íŒŒì¼ ì´ë¦„ ë³€ê²½
             remove(filename);
             rename(tempFilename, filename);
 
-            printf("\"%s\" ´Ü¾î°¡ »èÁ¦µÇ¾ú½À´Ï´Ù.\n", deleteWord);
+            printf("\"%s\" ë‹¨ì–´ê°€ ì‚­ì œë˜ì—ˆìŠµë‹ˆë‹¤.\n", deleteWord);
             break;
         }
     }
@@ -874,17 +874,17 @@ void delete() {
 
     if (no_word == 1) {
         system("cls");
-        printf("    *************************************'Åä ¸° ÀÌ'¸¦ À§ÇÑ ´Ü¾îÀå************************************* ");
-        printf("\n\n\n\n\n                                                *´Ü¾î »èÁ¦*");
-        printf("\n\n                                         »èÁ¦ÇÒ ´Ü¾îÀå : Day %d\n", Day);
-        printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                    \"%s\"´Â ´Ü¾îÀå Day %d¿¡ Á¸ÀçÇÏÁö ¾Ê½À´Ï´Ù. ",deleteWord,Day);
+        printf("    *************************************'í†  ë¦° ì´'ë¥¼ ìœ„í•œ ë‹¨ì–´ì¥************************************* ");
+        printf("\n\n\n\n\n                                                *ë‹¨ì–´ ì‚­ì œ*");
+        printf("\n\n                                         ì‚­ì œí•  ë‹¨ì–´ì¥ : Day %d\n", Day);
+        printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                    \"%s\"ëŠ” ë‹¨ì–´ì¥ Day %dì— ì¡´ì¬í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤. ",deleteWord,Day);
     }
     while (1) {
-        printf("\n\n\n¿£ÅÍ Å° ÀÔ·Â.\n");
-        int input = getchar(); // »ç¿ëÀÚ·ÎºÎÅÍ ÇÑ ¹®ÀÚ ÀÔ·Â ¹Ş±â
-        if (input == '\n') { // ÀÔ·Â¹ŞÀº ¹®ÀÚ°¡ '\n'ÀÌ¸é, Áï ¿£ÅÍ Å°ÀÌ¸é
+        printf("\n\n\nì—”í„° í‚¤ ì…ë ¥.\n");
+        int input = getchar(); // ì‚¬ìš©ìë¡œë¶€í„° í•œ ë¬¸ì ì…ë ¥ ë°›ê¸°
+        if (input == '\n') { // ì…ë ¥ë°›ì€ ë¬¸ìê°€ '\n'ì´ë©´, ì¦‰ ì—”í„° í‚¤ì´ë©´
 
-            break; // while ·çÇÁ¸¦ ºüÁ®³ª¿Í ´ÙÀ½ ´Ü°è·Î ÁøÇà
+            break; // while ë£¨í”„ë¥¼ ë¹ ì ¸ë‚˜ì™€ ë‹¤ìŒ ë‹¨ê³„ë¡œ ì§„í–‰
         }
     }
 }
@@ -892,11 +892,11 @@ void delete() {
 
 int Choice_Day() {
     int Day_Choice = 0;
-    printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                           ¿øÇÏ´Â ´Ü¾îÀå Day : ");
+    printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                           ì›í•˜ëŠ” ë‹¨ì–´ì¥ Day : ");
     scanf("%d", &Day_Choice);
     getchar();
     if (Day_Choice < 1 || Day_Choice > 10) {
-        printf("´Ü¾îÀå ¼±ÅÃ ¿À·ù !!");
+        printf("ë‹¨ì–´ì¥ ì„ íƒ ì˜¤ë¥˜ !!");
         Day_Choice = 0;
     }
 
@@ -906,8 +906,8 @@ int Choice_Day() {
 
 int readWordCount(int _Day) {
     
-    char filename[20]; // ÆÄÀÏ ÀÌ¸§À» ÀúÀåÇÒ ¹è¿­ÀÇ Å©±â¸¦ ´Ã·È½À´Ï´Ù.
-    sprintf(filename, "Day%d.txt", _Day); // ÆÄÀÏ ÀÌ¸§ »ı¼º
+    char filename[20]; // íŒŒì¼ ì´ë¦„ì„ ì €ì¥í•  ë°°ì—´ì˜ í¬ê¸°ë¥¼ ëŠ˜ë ¸ìŠµë‹ˆë‹¤.
+    sprintf(filename, "Day%d.txt", _Day); // íŒŒì¼ ì´ë¦„ ìƒì„±
     
     
     
@@ -938,7 +938,7 @@ int readWordCount(int _Day) {
     */
 
     if (file == NULL) {
-        printf("ÆÄÀÏÀ» ¿­ ¼ö ¾ø½À´Ï´Ù.\n");
+        printf("íŒŒì¼ì„ ì—´ ìˆ˜ ì—†ìŠµë‹ˆë‹¤.\n");
         return 0;
     }
 
@@ -952,20 +952,20 @@ int readWordCount(int _Day) {
     return count;
 }//COUNT_WORDS
 void Load_Words(char*** words, int _Day, int* error) {
-    char filename[20]; // ÆÄÀÏ ÀÌ¸§À» ÀúÀåÇÒ ¹è¿­ÀÇ Å©±â¸¦ ´Ã·È½À´Ï´Ù.
-    sprintf(filename, "Day%d.txt", _Day); // ÆÄÀÏ ÀÌ¸§ »ı¼º
+    char filename[20]; // íŒŒì¼ ì´ë¦„ì„ ì €ì¥í•  ë°°ì—´ì˜ í¬ê¸°ë¥¼ ëŠ˜ë ¸ìŠµë‹ˆë‹¤.
+    sprintf(filename, "Day%d.txt", _Day); // íŒŒì¼ ì´ë¦„ ìƒì„±
 
     FILE* file = fopen(filename, "r");
     if (file == NULL) {
-        printf("ÆÄÀÏÀ» ¿­ ¼ö ¾ø½À´Ï´Ù.\n");
+        printf("íŒŒì¼ì„ ì—´ ìˆ˜ ì—†ìŠµë‹ˆë‹¤.\n");
         return;
     }
 
-    char line[256]; // °¢ ÁÙÀ» ÀĞ±â À§ÇÑ ÃæºĞÇÑ Å©±âÀÇ ¹®ÀÚ ¹è¿­À» ¼±¾ğÇÕ´Ï´Ù.
+    char line[256]; // ê° ì¤„ì„ ì½ê¸° ìœ„í•œ ì¶©ë¶„í•œ í¬ê¸°ì˜ ë¬¸ì ë°°ì—´ì„ ì„ ì–¸í•©ë‹ˆë‹¤.
     int i = 0;
     while (fgets(line, sizeof(line), file) != NULL) {
-        // line¿¡¼­ ´Ü¾î, ¶æ, ¿À·ù È½¼ö¸¦ ºĞ¸®ÇÏ¿© ÀĞ½À´Ï´Ù.
-        // sscanf »ç¿ë ½Ã, line ¹è¿­À» »ç¿ëÇÕ´Ï´Ù.
+        // lineì—ì„œ ë‹¨ì–´, ëœ», ì˜¤ë¥˜ íšŸìˆ˜ë¥¼ ë¶„ë¦¬í•˜ì—¬ ì½ìŠµë‹ˆë‹¤.
+        // sscanf ì‚¬ìš© ì‹œ, line ë°°ì—´ì„ ì‚¬ìš©í•©ë‹ˆë‹¤.
         sscanf(line, "%[^-]-%[^-]-%d", words[i][0], words[i][1], &error[i]);
         i++;
     }
@@ -973,7 +973,7 @@ void Load_Words(char*** words, int _Day, int* error) {
 }
  
 //24.04.09 
-//ÇÊ¿äÇÑ ¼öÁ¤ »çÇ×
-//1. Quiz±¸°£ »ó´Ü  °íÁ¤¹Ù ¼öÁ¤ ex *Á¤µ¶ Quiz*  ¶Ç´Â  *¾àÁ¡ º¸¿Ï*  *´«À¸·Î ¸ÂÃß´Â ÄûÁî*
-//¿©·¯¹ø Å×½ºÆ® ÈÄ ±Ô°İ °ËÁõ
-//±×°Í¸¸ ÇÏ¸é ³¡
+//í•„ìš”í•œ ìˆ˜ì • ì‚¬í•­
+//1. Quizêµ¬ê°„ ìƒë‹¨  ê³ ì •ë°” ìˆ˜ì • ex *ì •ë… Quiz*  ë˜ëŠ”  *ì•½ì  ë³´ì™„*  *ëˆˆìœ¼ë¡œ ë§ì¶”ëŠ” í€´ì¦ˆ*
+//24.04.29
+//ê·œê²© ê²€ì¦ ì™„ë£Œ project ë
