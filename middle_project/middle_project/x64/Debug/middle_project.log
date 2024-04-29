@@ -1,0 +1,42 @@
+﻿  source.c
+C:\visualstudio ccsds\middle_project\middle_project\source.c(131,36): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\visualstudio ccsds\middle_project\middle_project\source.c(161,36): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\visualstudio ccsds\middle_project\middle_project\source.c(207,40): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\visualstudio ccsds\middle_project\middle_project\source.c(236,40): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\visualstudio ccsds\middle_project\middle_project\source.c(275,40): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\visualstudio ccsds\middle_project\middle_project\source.c(303,40): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\visualstudio ccsds\middle_project\middle_project\source.c(348,40): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\visualstudio ccsds\middle_project\middle_project\source.c(377,40): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\visualstudio ccsds\middle_project\middle_project\source.c(415,40): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\visualstudio ccsds\middle_project\middle_project\source.c(452,40): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\visualstudio ccsds\middle_project\middle_project\source.c(118,36): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\visualstudio ccsds\middle_project\middle_project\source.c(124,37): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\visualstudio ccsds\middle_project\middle_project\source.c(138,41): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\visualstudio ccsds\middle_project\middle_project\source.c(148,36): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\visualstudio ccsds\middle_project\middle_project\source.c(154,37): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\visualstudio ccsds\middle_project\middle_project\source.c(167,41): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\visualstudio ccsds\middle_project\middle_project\source.c(194,40): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\visualstudio ccsds\middle_project\middle_project\source.c(200,41): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\visualstudio ccsds\middle_project\middle_project\source.c(214,45): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\visualstudio ccsds\middle_project\middle_project\source.c(223,40): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\visualstudio ccsds\middle_project\middle_project\source.c(229,41): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\visualstudio ccsds\middle_project\middle_project\source.c(242,45): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\visualstudio ccsds\middle_project\middle_project\source.c(262,40): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\visualstudio ccsds\middle_project\middle_project\source.c(268,41): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\visualstudio ccsds\middle_project\middle_project\source.c(281,45): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\visualstudio ccsds\middle_project\middle_project\source.c(290,40): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\visualstudio ccsds\middle_project\middle_project\source.c(296,41): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\visualstudio ccsds\middle_project\middle_project\source.c(309,45): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\visualstudio ccsds\middle_project\middle_project\source.c(335,40): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\visualstudio ccsds\middle_project\middle_project\source.c(341,41): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\visualstudio ccsds\middle_project\middle_project\source.c(355,45): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\visualstudio ccsds\middle_project\middle_project\source.c(364,40): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\visualstudio ccsds\middle_project\middle_project\source.c(370,41): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\visualstudio ccsds\middle_project\middle_project\source.c(383,45): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\visualstudio ccsds\middle_project\middle_project\source.c(402,40): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\visualstudio ccsds\middle_project\middle_project\source.c(408,41): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\visualstudio ccsds\middle_project\middle_project\source.c(421,45): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\visualstudio ccsds\middle_project\middle_project\source.c(439,40): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\visualstudio ccsds\middle_project\middle_project\source.c(445,41): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\visualstudio ccsds\middle_project\middle_project\source.c(458,45): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  middle_project.vcxproj -> C:\visualstudio ccsds\middle_project\x64\Debug\middle_project.exe
